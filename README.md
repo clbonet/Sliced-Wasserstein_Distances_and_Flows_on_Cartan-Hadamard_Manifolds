@@ -13,7 +13,7 @@ While many Machine Learning methods were developed or transposed on Riemannian m
     title={Sliced-Wasserstein Distances and Flows on Cartan-Hadamard Manifolds},
     author={Clément Bonet and Lucas Drumetz and Nicolas Courty},
     year={2024},
-    journal={arXiv preprint arXiv:}
+    journal={arXiv preprint arXiv:2403.06560}
 }
 ```
 
