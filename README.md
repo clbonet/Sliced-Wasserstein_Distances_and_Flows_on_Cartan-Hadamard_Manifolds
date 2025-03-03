@@ -4,19 +4,21 @@ This repository contains the code to reproduce the experiments of the paper [Sli
 
 ## Abstract
 
-While many Machine Learning methods were developed or transposed on Riemannian manifolds to tackle data with known non Euclidean geometry, Optimal Transport (OT) methods on such spaces have not received much attention. The main OT tool on these spaces is the Wasserstein distance which suffers from a heavy computational burden. On Euclidean spaces, a popular alternative is the Sliced-Wasserstein distance, which leverages a closed-form solution of the Wasserstein distance in one dimension, but which is not readily available on manifolds. In this work, we derive general constructions of Sliced-Wasserstein distances on Cartan-Hadamard manifolds, Riemannian manifolds with non-positive curvature, which include among others Hyperbolic spaces or the space of Symmetric Positive Definite matrices. Then, we propose different applications. Additionally, we derive non-parametric schemes to minimize these new distances by approximating their Wasserstein gradient flows.
+While many Machine Learning methods were developed or transposed on Riemannian manifolds to tackle data with known non Euclidean geometry, Optimal Transport (OT) methods on such spaces have not received much attention. The main OT tool on these spaces is the Wasserstein distance which suffers from a heavy computational burden. On Euclidean spaces, a popular alternative is the Sliced-Wasserstein distance, which leverages a closed-form solution of the Wasserstein distance in one dimension, but which is not readily available on manifolds. In this work, we derive general constructions of Sliced-Wasserstein distances on Cartan-Hadamard manifolds, Riemannian manifolds with non-positive curvature, which include among others Hyperbolic spaces or the space of Symmetric Positive Definite matrices. Then, we propose different applications such as classification of documents with a suitably learned ground cost on a manifold, and data set comparison on a product manifold. Additionally, we derive non-parametric schemes to minimize these new distances by approximating their Wasserstein gradient flows.
 
 ## Citation
 
 ```
-@article{bonet2024sliced,
-    title={Sliced-Wasserstein Distances and Flows on Cartan-Hadamard Manifolds},
+@article{bonet2025sliced,
+    title={{Sliced-Wasserstein Distances and Flows on Cartan-Hadamard Manifolds}},
     author={Clément Bonet and Lucas Drumetz and Nicolas Courty},
-    year={2024},
-    journal={arXiv preprint arXiv:2403.06560}
+    year={2025},
+    journal={Journal of Machine Learning Research},
+    volume={26},
+    number={32},
+    pages={1--76}
 }
 ```
-
 
 ## Install the package
 
